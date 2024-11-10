@@ -12,20 +12,27 @@ const data = [
     },
     {
         id: 1,
-        title: "simple-calculator",
-        desc: "A HTML, CSS And Typecript based tool for airthematic operations..",
+        title: "Simple Calculator",
+        desc: "A HTML, CSS And Typecript based tool for airthematic operations.",
         img: "/simple-calculator.png",
+        tags: ["HTML", "CSS", "Typescript", "Node"]
+    },
+    {
+        id: 2,
+        title: "Resume",
+        desc: "Built using HTML, CSS And Typecript.",
+        img: "/resume.jpg",
         tags: ["HTML", "CSS", "Typescript", "Node"]
     }
 ]
 
 const Projects = () => {
   return (
-    <div id='projects' className='container pt-32'>
-      <div className='text-pink-400 text-4xl md:text-5xl font-semibold italic'>
+    <div id='projects' className='container pt-24'>
+      <div className='text-black text-4xl md:text-5xl font-semibold italic'>
       <Heading data-aos="zoom-in-up" title='My Projects'/>
       </div>
-      <div className='grid gap-10 xl-gap-0 xl-gap-y-10 md:grid-cols-2 ld:grid-cols-3 place-items-center'>
+      <div className='grid gap-5 xl-gap-0 xl-gap-y-10 md:grid-cols-2 ld:grid-cols-3 place-items-center'>
         {data.map((el) => (<Card
         key={el.id}
         title={el.title}

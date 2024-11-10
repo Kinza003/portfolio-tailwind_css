@@ -7,7 +7,7 @@ const Contact = () => {
     <div id='contact' className='pt-32 container'>
       <div className='grid md:grid-cols-2 gap-10'>
         <div className='space-y-8'>
-            <h2 className='text-5xl text-pink-400 font-semibold italic'  data-aos="zoom-in-up">Get in touch</h2>
+            <h2 className='text-5xl text-black font-semibold italic'  data-aos="zoom-in-up">Get in touch</h2>
             <p className='text-gray-600 text-[18px] pt-2'  data-aos="zoom-in-up">
                 Drop me a line, give me a call, or send me a message by submitting the form.
             </p>

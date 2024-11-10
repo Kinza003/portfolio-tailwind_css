@@ -5,7 +5,7 @@
 @layer base {
   body {
     color: black;
-    background-color: white;
+    background-color: rgb(133, 252, 252);
   }
 }
 
